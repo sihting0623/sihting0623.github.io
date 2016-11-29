@@ -1,0 +1,101 @@
+/*
+
+body {
+    background-image: url(http://source.unsplash.com/1000x400?beach);
+}
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+section,
+article,
+div: 0;
+
+/*
+Header
+*/
+
+header {
+    height: 300px;
+    color: white;
+    font-size: 40px;
+    background-image: url(http://source.unsplash.com/1000x400?coffeeshop);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+/*
+引文設定
+
+ 
+*/
+
+blockquote {
+    background-image: url(imgres.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    background-position: left -10PX;
+}
+
+
+/*
+縮圖區塊設定
+*/
+
+h1 {
+    color: salmon;
+    font-size: 40px;
+}
+
+.thumbnail {
+    width: calc(25% - 10px);
+    float: left;
+    margin: 5px;
+}
+
+.thumbnail-img {
+    width: 100%;
+}
+
+.capyion-btn {
+    text-decoration: no
+}
+
+.caption-btn {
+    display: block;
+    width: 80px;
+    height: 50;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    background-color: seashell;
+}
+
+.caption-btn:link {
+    font-size: 15px;
+    color: salmon;
+}
+
+.caption-btn:visited {
+    font-size: 15px;
+    color: lightpink;
+}
+
+.caption-hover:link {
+    font-size: 15px;
+    color: burlywood;
+}
+
+.caption-active:link {
+    font-size: 15px;
+    color: lightpin;
+    text-decoration-line: underline
+}
