@@ -1,0 +1,62 @@
+/*基本設定*/
+
+body {
+    padding-top: 50px;
+}
+
+.jumbotron {
+    margin-bottom: 10px;
+}
+
+
+/*導覽列*/
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+
+/*head*/
+
+#head {
+    background-color: #A4CFBD;
+    color: snow;
+    font-family: 'verdana', sans-serif;
+}
+
+#head p {
+    font-family: 'notosans';
+    letter-spacing: 1px;
+}
+
+
+/*top*/
+
+.logo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.row {
+    font-family: 'notosans';
+    letter-spacing: 1px;
+    color: gray;
+}
+
+
+/*footer*/
+
+#footer {
+    color: #626262;
+}
+
+#footer a {
+    color: #628479;
+}
+
+#footer ul {
+    text-align: right;
+}

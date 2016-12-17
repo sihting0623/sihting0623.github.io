@@ -1,0 +1,75 @@
+/*背景設定*/
+
+body {
+    background-color: #c7e0d8;
+    background-image: url();
+}
+
+
+/*內容設定*/
+
+nav {
+    letter-spacing: 1px;
+    text-align: left;
+    position: absolute;
+    right: 25%;
+    top: 250px;
+}
+
+.caption-title {
+    font-family: 'verdana', sans-serif;
+    font-style: italic;
+    font-size: 17px;
+    color: #628479;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.caption-subtitle {
+    font-family: 'verdana';
+    font-style: italic;
+    font-size: 15px;
+    font-weight: bold;
+    color: #42534e;
+    letter-spacing: 1px;
+}
+
+.caption-body {
+    line-height: 1.5;
+    font-family: 'verdana';
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.caption-btn,
+.caption-btn:after,
+.caption-btn:before {
+    vertical-align: middle;
+    font-size: 14px;
+    border-collapse: separate;
+    border-spacing: 2px;
+    display: block;
+    color: #7d968e;
+    line-height: 40px;
+}
+
+a {
+    text-decoration-line: underline;
+    color: darkgrey;
+}
+
+.caption-btn:before,
+.caption-btn:after {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    border: 1px solid;
+}
+
+.caption-btn:after {
+    margin-left: 10px;
+}
+
+.caption-btn:before {
+    margin-right: 10px;
+}

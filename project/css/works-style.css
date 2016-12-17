@@ -1,0 +1,273 @@
+/*基本設定*/
+
+body {
+    padding-top: 50px;
+}
+
+
+/*導覽列*/
+
+.jumbotron {
+    color: #A4CFBD;
+    margin-bottom: 10px;
+}
+
+.logo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.row {
+    font-family: 'notosans';
+    letter-spacing: 1px;
+    color: gray;
+}
+
+
+/*About*/
+
+#about h1 {
+    font-size: 15px;
+    position: relative;
+    top: 430px;
+}
+
+#about p {
+    font-size: 10px;
+    position: relative;
+    top: 430px;
+}
+
+#about h2 {
+    text-align-last: left;
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+    color: #A4CFBD;
+}
+
+#about h3 {
+    text-align: left;
+    line-height: 15px;
+    position: relative;
+    top: 250px;
+    font-size: 10px;
+}
+
+#about ul {
+    list-style: none;
+    text-align: left;
+    position: relative;
+    top: 270px;
+    left: -40px;
+    font-size: 10px;
+}
+
+.sunny-photo {
+    width: 350px;
+    border-radius: 5px;
+}
+
+
+/*個人簡歷*/
+
+#experience h1 {
+    color: #A4CFBD;
+    font-size: 20px;
+    position: relative;
+    left: 40px;
+}
+
+#experience h2 {
+    text-align: left;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: gray;
+}
+
+#experience h3 {
+    position: relative;
+    top: 270px;
+    left: 0px;
+    font-size: 20px;
+    color: #A4CFBD;
+}
+
+#experience h4 {
+    position: relative;
+    top: 270px;
+    left: 0px;
+    font-size: 20px;
+    color: #A4CFBD;
+}
+
+#experience p {
+    font-family: 'notosans';
+    text-align: left;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: gray;
+    position: relative;
+    top: 265px;
+}
+
+#experience ul {
+    list-style: none;
+    font-size: 10px;
+}
+
+
+/*內容btn*/
+
+.capyion-btn {
+    text-decoration: no;
+}
+
+.caption-btn {
+    display: block;
+    width: 80px;
+    height: 50;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #A4CFBD;
+    border-radius: 5px;
+    background-color: #A4CFBD;
+}
+
+.caption-btn:link {
+    font-size: 15px;
+    color: white;
+}
+
+.caption-btn:visited {
+    font-size: 15px;
+    color: white;
+}
+
+.caption-hover:link {
+    font-size: 15px;
+    color: white;
+}
+
+.caption-active:link {
+    font-size: 15px;
+    color: white;
+    text-decoration-line: underline;
+}
+
+
+/*graphic*/
+
+.graphic-img {
+    width: 700px;
+    border-radius: 5px;
+}
+
+#graphic h1 {
+    color: #628479;
+    font-size: 30px;
+    position: relative;
+}
+
+#graphic p {
+    font-size: 15px;
+}
+
+
+/*illustration*/
+
+.illustration-img {
+    width: 700px;
+    border-radius: 5px;
+}
+
+#illustration h1 {
+    color: #628479;
+    font-size: 30px;
+    position: relative;
+}
+
+#illustration p {
+    font-size: 15px;
+}
+
+
+/*photograph*/
+
+.photograph-img {
+    width: 700px;
+    border-radius: 5px;
+}
+
+#photograph h1 {
+    color: #628479;
+    font-size: 30px;
+    position: relative;
+}
+
+#photograph p {
+    font-size: 15px;
+}
+
+
+/*packaging*/
+
+.packaging-img {
+    width: 700px;
+    border-radius: 5px;
+}
+
+#packaging h1 {
+    color: #628479;
+    font-size: 30px;
+    position: relative;
+}
+
+#packaging p {
+    font-size: 15px;
+}
+
+
+/*footer*/
+
+#footer {
+    color: #626262;
+}
+
+#footer a {
+    color: #628479;
+}
+
+#footer ul {
+    text-align: right;
+}
+
+
+/*各種螢幕尺寸設定*/
+
+@media only screen and (min-width:768px) and (max-width:997px) {
+    .gallery [class^="col-"] {
+        height: 400px;
+    }
+}
+
+@media only screen and (min-width:997px) and (max-width:1200px) {
+    .gallery [class^="col-"] {
+        height: 350px;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .gallery [class^="col-"] {
+        height: 300px;
+    }
+}

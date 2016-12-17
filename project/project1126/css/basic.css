@@ -1,0 +1,39 @@
+/*
+所有標籤基礎設定
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+section,
+article,
+div {
+    padding: 0px;
+    border: 0px;
+}
+
+.caption-title {
+    font-family: Arial, sans-serif;
+    font-size: 30;
+    font-style: oblique;
+    font-weight: 900;
+    letter-spacing: 40;
+    word-spacing: inherit
+}
+
+.caption-body {
+    line-height: 1.5;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*
+常用圖片設定
+*/

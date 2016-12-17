@@ -1,0 +1,114 @@
+/*body {
+    padding-top: 50px;
+    background-image: url(http://source.unsplash.com/1500x400?blur);
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.jumbotron {
+    margin-bottom: 10px;
+}
+*/
+
+
+/*基本設定*/
+
+body {
+    padding-top: 50px;
+}
+
+.jumbotron {
+    margin-bottom: 10px;
+}
+
+
+/*導覽列*/
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+
+/*head*/
+
+#head {
+    background-color: #A4CFBD;
+    color: snow;
+    font-family: 'verdana', sans-serif;
+}
+
+#head p {
+    font-family: 'notosans';
+    letter-spacing: 1px;
+}
+
+
+/*top*/
+
+.logo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.row {
+    font-family: 'notosans';
+    letter-spacing: 1px;
+    color: gray;
+}
+
+
+/*內容btn*/
+
+.capyion-btn {
+    text-decoration: no;
+}
+
+.caption-btn {
+    display: block;
+    width: 80px;
+    height: 50;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #A4CFBD;
+    border-radius: 5px;
+    background-color: #A4CFBD;
+}
+
+.caption-btn:link {
+    font-size: 15px;
+    color: white;
+}
+
+.caption-btn:visited {
+    font-size: 15px;
+    color: white;
+}
+
+.caption-hover:link {
+    font-size: 15px;
+    color: white;
+}
+
+.caption-active:link {
+    font-size: 15px;
+    color: white;
+    text-decoration-line: underline;
+}
+
+
+/*footer*/
+
+#footer {
+    color: #626262;
+}
+
+#footer a {
+    color: #628479;
+}
+
+#footer ul {
+    text-align: right;
+}
