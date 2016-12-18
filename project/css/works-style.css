@@ -41,7 +41,8 @@ body {
 
 #about p {
     font-size: 10px;
-    margin-bottom: 100px;
+    position: relative;
+    top: 505px;
 }
 
 #about h2 {
