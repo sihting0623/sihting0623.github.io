@@ -36,19 +36,19 @@ body {
 #about h1 {
     font-size: 15px;
     position: relative;
-    top: 430px;
+    top: 500px;
 }
 
 #about p {
     font-size: 10px;
     position: relative;
-    top: 430px;
+    top: 505px;
 }
 
 #about h2 {
     text-align-last: left;
     position: relative;
-    top: 50px;
+    top: 180px;
     font-size: 20px;
     color: #A4CFBD;
 }
@@ -57,7 +57,7 @@ body {
     text-align: left;
     line-height: 15px;
     position: relative;
-    top: 250px;
+    top: 340px;
     font-size: 10px;
 }
 
@@ -65,14 +65,9 @@ body {
     list-style: none;
     text-align: left;
     position: relative;
-    top: 270px;
+    top: 340px;
     left: -40px;
     font-size: 10px;
-}
-
-.sunny-photo {
-    width: 350px;
-    border-radius: 5px;
 }
 
 
@@ -175,7 +170,6 @@ body {
 #graphic h1 {
     color: #628479;
     font-size: 30px;
-    position: relative;
 }
 
 #graphic p {
@@ -193,7 +187,6 @@ body {
 #illustration h1 {
     color: #628479;
     font-size: 30px;
-    position: relative;
 }
 
 #illustration p {
@@ -211,7 +204,6 @@ body {
 #photograph h1 {
     color: #628479;
     font-size: 30px;
-    position: relative;
 }
 
 #photograph p {
@@ -229,7 +221,6 @@ body {
 #packaging h1 {
     color: #628479;
     font-size: 30px;
-    position: relative;
 }
 
 #packaging p {
